@@ -11,7 +11,7 @@ Run the program with several options
 
 - `java com.test.TestShortUrl <long URLs>`
    
-   EX: `java com.test.TestShortUrl https://google.com/12345678901212agshby https://www.cricketworldcup.com/`
+   Ex: `java com.test.TestShortUrl https://google.com/12345678901212agshby https://www.cricketworldcup.com/`
 
 - `java com.test.TestShortUrl -f input.txt` where input.txt is file with list of URLs seperated by newline
 

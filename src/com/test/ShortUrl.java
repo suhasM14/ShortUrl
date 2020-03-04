@@ -11,10 +11,6 @@ public class ShortUrl {
         StringBuilder shortUrl = new StringBuilder();
         if (longUrl.startsWith("https://")) {
             shortUrl.append("https://");
-            longUrl = longUrl.substring(8);
-        } else if (longUrl.startsWith("http://")) {
-            shortUrl.append("http://");
-            longUrl = longUrl.substring(7);
         } else {
             // default to http
             shortUrl.append("http://");
